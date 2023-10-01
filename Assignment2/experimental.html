@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">My Food</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+    <section class="menu py-5">
+        <div class="container">
+  <!-- First Photo Grid-->
+  <h1 class="text-center mb-5">Our Menu</h1>
+
+            <!-- SALADS -->
+            <h2 class="mb-3">SALADS</h2>
+            <hr class="my-0">
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="auberginesalad.png" alt="Dish 1" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Salad With Warm Aubergines</h2>
+                            <p class="card-text">Crispy breaded aubergine salad with garlic, cucumbers, tomatoes, peanuts, cilantro, and fried onions</p>
+                            <p class="price font-weight-bold text-danger">4990₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="prawnssalad.png" alt="Dish 2" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Prawn and Pineapple Salad</h2>
+                            <p class="card-text">Light salad of tiger shrimps, spinach, cucumbers, canned pineapple, and roasted peanuts with signature dressing</p>
+                            <p class="price font-weight-bold text-danger">5990₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="greensalad.webp" alt="Dish 3" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Green Salad Bowl</h2>
+                            <p class="card-text">Salad mix, cucumbers, broccoli, apples, avocado, edamame beans, citrus dressing with wasabi</p>
+                            <p class="price font-weight-bold text-danger">5990₸</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PIZZA -->
+            <h2 class="mt-5 mb-3">PIZZA</h2>
+            <hr class="my-0">
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="chickenpizza.jpg" alt="Dish 4" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Chicken Pizza</h2>
+                            <p class="card-text">Pizza with chicken, bell peppers, and tomatoes, soy sprouts, and cilantro on thin crust</p>
+                            <p class="price font-weight-bold text-danger">6000₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="pepperonipizza.jpg" alt="Dish 5" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Pepperoni Pizza</h2>
+                            <p class="card-text">Classic thin crust pizza with salami</p>
+                            <p class="price font-weight-bold text-danger">6300₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="margaritapizza.jpg" alt="Dish 6" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Margarita Pizza</h2>
+                            <p class="card-text">Classic Margherita pizza with tomatoes on thin crust</p>
+                            <p class="price font-weight-bold text-danger">5500₸</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- POKE BOWLS -->
+            <h2 class="mt-5 mb-3">POKE BOWLS</h2>
+            <hr class="my-0">
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="prawnpoke.png" alt="Dish 7" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Prawn Poke</h2>
+                            <p class="card-text">Served with special rice, shrimp, avocado, tomatoes, tofu cheese, and special sauce</p>
+                            <p class="price font-weight-bold text-danger">6990₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="edamamepoke.png" alt="Dish 8" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Edamame Poke</h2>
+                            <p class="card-text">Served with special rice, marinated salmon, edamame beans, mango, avocado, kimchi, chukka salad, and signature sauce</p>
+                            <p class="price font-weight-bold text-danger">6990₸</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEVERAGES -->
+            <h2 class="mt-5 mb-3">BEVERAGES</h2>
+            <hr class="my-0">
+
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="coffee.jpg" alt="Dish 9" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Coffee</h2>
+                            <p class="price font-weight-bold text-danger">1600₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="7up.jpeg" alt="Dish 10" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">7UP 1 L</h2>
+                            <p class="price font-weight-bold text-danger">1000₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="mirinda.jpeg" alt="Dish 11" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">MIRINDA 1 L</h2>
+                            <p class="price font-weight-bold text-danger">1000₸</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="lemonade.jpeg" alt="Dish 12" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Homemade Lemonade 0.5 L</h2>
+                            <p class="price font-weight-bold text-danger">Free</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-4">
+                    <div class="card">
+                        <img src="strawberrylemonade.jpg" alt="Dish 13" class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="card-title">Ansar's Homemade Strawberry Lemonade 0.5 L</h2>
+                            <p class="price font-weight-bold text-danger">Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+  
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Food Man</h3><br>
+    <img src="/w3images/chef.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dinner</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Salmon</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">France</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Flavors</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cuisine</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Chicken</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dressing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fried</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Fish</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Duck</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
